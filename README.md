@@ -2,7 +2,7 @@
 
 **Understand what another department means, with evidence you can inspect.**
 
-Proposed theme: Productivity / Smart Business. Confirm the official category before submission.
+Proposed theme: Productivity / Smart Business. 
 
 LintasTeks is a Langflow prototype for interpreting technical terminology across departments. Its first resource extension connects named objects to documented relationships and conditional implications for the recipient's work, using a synthetic registry.
 
