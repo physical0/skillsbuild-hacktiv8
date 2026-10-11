@@ -1,0 +1,26 @@
+{
+  "name": "LintasTeks",
+  "name_status": "confirmed",
+  "team_name": "",
+  "team_members": [],
+  "theme": "Productivity / Smart Business",
+  "theme_status": "proposed; confirm the official submission category",
+  "topic": "Context-Aware Multi-Agent Framework for Cross-Departmental Technical Terminology Interpretation",
+  "value_proposition": "Help employees understand cross-department messages by explaining terminology in context and citing the evidence behind the answer.",
+  "language": "English",
+  "status": "prototype with optional conversational context intake; live Langflow execution unverified",
+  "prototype_departments": [
+    "Engineering",
+    "Finance",
+    "Marketing"
+  ],
+  "future_departments": [
+    "HR",
+    "Operations"
+  ],
+  "repository_url": "",
+  "demo_url": "",
+  "video_url": "",
+  "runtime_verified": false,
+  "feedback_collected": false
+}

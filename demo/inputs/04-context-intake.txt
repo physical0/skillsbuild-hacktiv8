@@ -1,0 +1,25 @@
+Run these as separate messages in the SAME Playground session:
+
+1. What does ETL mean?
+2. Marketing. Engineering mentioned a mismatch between transaction data and our campaign dashboard. I am preparing a campaign report.
+
+Expected behavior: message 1 asks for missing department/context; message 2 resumes the original ETL question using supplied context and retrieved evidence.
+
+Continue in that SAME session:
+3. What is ROI?
+4. What is API?
+5. hello
+6. asdfghjkl
+7. change context
+8. finance
+9. What is API?
+
+Expected behavior: 3 and 4 use the saved Marketing recipient context without another interview; 5 welcomes the user, and 6 asks for clarification naturally. Both preserve the saved choice. Message 7 reopens selection, 8 confirms Finance without retrieval, and 9 uses Finance as recipient context while Engineering supplies the API definition. Implications must be supported by the retrieved records.
+
+In a NEW session:
+1. What does ETL mean?
+2. skip
+
+Expected behavior: a general explanation, with no invented user profile or repeated context interview.
+
+These are acceptance expectations, not recorded outputs. Capture the actual messages and diagnostics after running the updated flow.

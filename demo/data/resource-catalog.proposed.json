@@ -1,0 +1,36 @@
+{
+  "status": "proposed fixture; no runtime consumer",
+  "synthetic_example": true,
+  "resources": [
+    {
+      "id": "DEMO-RESOURCE-BILLING",
+      "name": "Demo billing data pipeline",
+      "aliases": [
+        "billing pipeline"
+      ],
+      "owner_department": "Engineering",
+      "reference": "demo://billing-pipeline",
+      "evidence_source_ids": [
+        "DEMO-ENG-PIPELINE"
+      ],
+      "relationships": [
+        {
+          "type": "feeds",
+          "target_id": "DEMO-RESOURCE-INVOICE-REPORT",
+          "evidence_source_ids": [
+            "DEMO-FIN-BILLING"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO-RESOURCE-INVOICE-REPORT",
+      "name": "Demo invoice preparation report",
+      "owner_department": "Finance",
+      "reference": "demo://invoice-report",
+      "evidence_source_ids": [
+        "DEMO-FIN-BILLING"
+      ]
+    }
+  ]
+}

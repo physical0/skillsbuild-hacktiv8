@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "DEMO-MKT-CONVERSION",
+    "content": "Conversion rate expresses the proportion of a defined audience completing a defined action. Its denominator and event definition must be specified. The synthetic campaign example uses purchases divided by recorded visits. It does not establish a real organization-wide metric definition.",
+    "$vectorize": "Conversion rate expresses the proportion of a defined audience completing a defined action. Its denominator and event definition must be specified. The synthetic campaign example uses purchases divided by recorded visits. It does not establish a real organization-wide metric definition.",
+    "metadata": {
+      "source_id": "DEMO-MKT-CONVERSION",
+      "department": "Marketing",
+      "term": "conversion rate",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-MKT-PIPELINE",
+    "content": "In this synthetic Marketing glossary, a sales pipeline tracks prospects through sales stages. Do not substitute this meaning when Engineering is discussing a data pipeline. This record is a demonstration of overloaded terminology.",
+    "$vectorize": "In this synthetic Marketing glossary, a sales pipeline tracks prospects through sales stages. Do not substitute this meaning when Engineering is discussing a data pipeline. This record is a demonstration of overloaded terminology.",
+    "metadata": {
+      "source_id": "DEMO-MKT-PIPELINE",
+      "department": "Marketing",
+      "term": "pipeline",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-MKT-DASHBOARD",
+    "content": "The synthetic campaign dashboard shows reporting metrics based on transaction data processed by the demo ETL workflow. If those records are stale, campaign interpretation may be affected. This document does not prove a real outage, causal loss, or financial impact.",
+    "$vectorize": "The synthetic campaign dashboard shows reporting metrics based on transaction data processed by the demo ETL workflow. If those records are stale, campaign interpretation may be affected. This document does not prove a real outage, causal loss, or financial impact.",
+    "metadata": {
+      "source_id": "DEMO-MKT-DASHBOARD",
+      "department": "Marketing",
+      "term": "dashboard",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  }
+]

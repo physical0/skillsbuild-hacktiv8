@@ -1,0 +1,25 @@
+Acceptance inputs, not recorded outputs. Use separate messages in one Playground session.
+
+1. change context
+2. finance
+3. Explain this sentence in plain language for my department: "Engineering checks ETL and the API while Marketing reviews conversion rate and Finance reports gross profit."
+
+Expected: retain the whole sentence and Finance recipient context. Retrieve ETL/API, conversion rate, and gross profit independently. Give a plain-language rendering, concise term notes, and actual source IDs. Do not invent a causal relationship between the clauses. Source availability depends on the configured collections.
+
+4. change context
+5. Engineering and Finance
+6. Explain pipeline and ROI.
+
+Expected: persist both selected views; also retrieve from definition/source owners where needed. Keep distinct supported pipeline senses separate and label each department. Do not invent an Engineering ROI definition if only Finance supports the term.
+
+7. change context
+8. skip
+9. What is pipeline?
+
+Expected: search the three available department collections and show only supported senses. Equal meanings may be combined; absent evidence does not become a made-up interpretation.
+
+10. Simplify this sentence: "The API may delay KPI reporting unless the ETL job succeeds."
+
+Expected: preserve "may" and "unless" and retain KPI as unresolved if no matching evidence exists. A failed/absent KPI lookup must not erase valid API/ETL findings. The user-stated relationship is not independently verified organizational evidence.
+
+Presentation check: use a short whole-message explanation followed by separate term blocks with Definition, Simple explanation, and Source & status (localized for the request language). Each source ID and synthetic/demo flag must reflect the actual evidence. Do not compress all explanation fields into one definition bullet or mix English and Indonesian field labels in the same answer.

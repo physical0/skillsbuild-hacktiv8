@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="610" viewBox="0 0 1280 610" role="img">
+<title>LintasTeks resource evidence map</title>
+<desc>Billing data pipeline — feeds → Invoice preparation report Resource IDs: DEMO-RESOURCE-BILLING, DEMO-RESOURCE-INVOICE-REPORT</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="#147d79"/></marker></defs>
+<rect width="1280" height="610" fill="#f6f9fc"/>
+<text x="64" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#23364b">LintasTeks / Resource evidence</text>
+<text x="64" y="100" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#63758a">Synthetic example — not company data</text>
+<text x="64" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#63758a">Scope: demo  |  Checked: 2026-10-11</text>
+<rect x="64" y="170" width="440" height="162" rx="14" fill="#ffffff" stroke="#cbd8e5" stroke-width="2"/>
+<text x="86" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#147d79">Engineering</text>
+<text x="86" y="235" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#23364b">Billing data pipeline</text>
+<text x="86" y="303" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#63758a">Registry source [1]</text>
+<rect x="776" y="170" width="440" height="162" rx="14" fill="#ffffff" stroke="#cbd8e5" stroke-width="2"/>
+<text x="798" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#147d79">Finance</text>
+<text x="798" y="235" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#23364b">Invoice preparation report</text>
+<text x="798" y="303" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#63758a">Registry source [2]</text>
+<path d="M518,255 L756,255" stroke="#147d79" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+<text x="555" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#147d79">feeds</text>
+<text x="555" y="288" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#63758a">Source [3]</text>
+<text x="64" y="364" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#63758a">Documented relationship; operational impact remains conditional.</text>
+<text x="64" y="395" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#23364b">Evidence references</text>
+<text x="64" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#147d79">[1] DEMO-RES-BILLING</text>
+<text x="64" y="445" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#63758a">Identity record: Billing data pipeline</text>
+<text x="64" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#147d79">[2] DEMO-RES-INVOICE</text>
+<text x="64" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#63758a">Identity record: Invoice preparation report</text>
+<text x="64" y="535" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#147d79">[3] DEMO-REL-SOURCE-001</text>
+<text x="64" y="555" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#63758a">Billing data pipeline feeds Invoice preparation report</text>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "status": "READY",
+  "original_question": "I’m from Finance. If we change the billing pipeline, could it affect the invoice preparation report? Show a diagram.",
+  "context": {
+    "recipient_department": "Finance"
+  },
+  "language": "en",
+  "context_selected": true,
+  "context_selection": {
+    "recipient_department": "Finance",
+    "recipient_departments": [
+      "Finance"
+    ]
+  },
+  "request_type": "RELATIONSHIP",
+  "terms": [],
+  "resource_mentions": [
+    "billing pipeline",
+    "invoice preparation report"
+  ],
+  "relation_subject": "billing pipeline",
+  "relation_object": "invoice preparation report",
+  "relation_predicate": "feeds",
+  "visual_requested": true,
+  "as_of": "2026-10-11"
+}

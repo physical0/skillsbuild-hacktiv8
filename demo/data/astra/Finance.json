@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "DEMO-FIN-GROSS",
+    "content": "Gross profit is revenue minus cost of goods sold. It differs from net profit, which accounts for additional expenses. This is a synthetic glossary explanation and does not define a particular company accounting policy.",
+    "$vectorize": "Gross profit is revenue minus cost of goods sold. It differs from net profit, which accounts for additional expenses. This is a synthetic glossary explanation and does not define a particular company accounting policy.",
+    "metadata": {
+      "source_id": "DEMO-FIN-GROSS",
+      "department": "Finance",
+      "term": "gross profit",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-FIN-CAPEX",
+    "content": "CAPEX refers to capital expenditure. In this synthetic glossary, a purchased asset can require a different accounting treatment from a recurring operating expense. Actual classification depends on the approved accounting policy. This example is not financial advice or an organizational rule.",
+    "$vectorize": "CAPEX refers to capital expenditure. In this synthetic glossary, a purchased asset can require a different accounting treatment from a recurring operating expense. Actual classification depends on the approved accounting policy. This example is not financial advice or an organizational rule.",
+    "metadata": {
+      "source_id": "DEMO-FIN-CAPEX",
+      "department": "Finance",
+      "term": "CAPEX",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-FIN-BILLING",
+    "content": "In this synthetic example, the invoice preparation report depends on the demo billing data pipeline. A pipeline failure may affect report freshness. This document does not show that any actual invoice is delayed or quantify an effect. Source context and incident evidence are necessary.",
+    "$vectorize": "In this synthetic example, the invoice preparation report depends on the demo billing data pipeline. A pipeline failure may affect report freshness. This document does not show that any actual invoice is delayed or quantify an effect. Source context and incident evidence are necessary.",
+    "metadata": {
+      "source_id": "DEMO-FIN-BILLING",
+      "department": "Finance",
+      "term": "billing",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+I work in Marketing and joined a meeting with Engineering and Finance. Engineering mentioned ETL, Finance mentioned gross profit, and Marketing mentioned conversion rate. Explain each term in its original departmental context, with supporting source IDs. If the routing or evidence cannot support all three, state that limitation.

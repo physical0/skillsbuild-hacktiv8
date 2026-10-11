@@ -1,0 +1,121 @@
+{
+  "status": "SUPPORTED",
+  "request": {
+    "status": "READY",
+    "original_question": "I’m from Finance. If we change the billing pipeline, could it affect the invoice preparation report? Show a diagram.",
+    "context": {
+      "recipient_department": "Finance"
+    },
+    "language": "en",
+    "context_selected": true,
+    "context_selection": {
+      "recipient_department": "Finance",
+      "recipient_departments": [
+        "Finance"
+      ]
+    },
+    "request_type": "RELATIONSHIP",
+    "terms": [],
+    "resource_mentions": [
+      "billing pipeline",
+      "invoice preparation report"
+    ],
+    "relation_subject": "billing pipeline",
+    "relation_object": "invoice preparation report",
+    "relation_predicate": "feeds",
+    "visual_requested": true,
+    "as_of": "2026-10-11"
+  },
+  "resources": [
+    {
+      "id": "DEMO-RESOURCE-BILLING",
+      "name": "Billing data pipeline",
+      "aliases": [
+        "billing pipeline",
+        "Demo billing data pipeline"
+      ],
+      "owner": "Engineering",
+      "scope": "demo",
+      "reference": "demo/data/resource-catalog.json#DEMO-RESOURCE-BILLING",
+      "evidence_ids": [
+        "DEMO-RES-BILLING"
+      ]
+    },
+    {
+      "id": "DEMO-RESOURCE-INVOICE-REPORT",
+      "name": "Invoice preparation report",
+      "aliases": [
+        "invoice report",
+        "Demo invoice preparation report"
+      ],
+      "owner": "Finance",
+      "scope": "demo",
+      "reference": "demo/data/resource-catalog.json#DEMO-RESOURCE-INVOICE-REPORT",
+      "evidence_ids": [
+        "DEMO-RES-INVOICE"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "DEMO-REL-001",
+      "subject_id": "DEMO-RESOURCE-BILLING",
+      "predicate": "feeds",
+      "object_id": "DEMO-RESOURCE-INVOICE-REPORT",
+      "polarity": "supports",
+      "scope": "demo",
+      "valid_from": "2026-10-11",
+      "evidence_ids": [
+        "DEMO-REL-SOURCE-001"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "DEMO-REL-SOURCE-001",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-BILLING",
+        "DEMO-RESOURCE-INVOICE-REPORT"
+      ],
+      "passage": "Relationship DEMO-REL-001 documents that the Billing data pipeline feeds the Invoice preparation report within the recorded scope from 2026-10-11. It does not document an outage, financial loss, or the effect of a future pipeline change.",
+      "assertions": [
+        {
+          "subject_id": "DEMO-RESOURCE-BILLING",
+          "predicate": "feeds",
+          "object_id": "DEMO-RESOURCE-INVOICE-REPORT",
+          "polarity": "supports",
+          "scope": "demo"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-RES-BILLING",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-BILLING"
+      ],
+      "passage": "DEMO-RESOURCE-BILLING identifies the Billing data pipeline, owned by Engineering."
+    },
+    {
+      "id": "DEMO-RES-INVOICE",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-INVOICE-REPORT"
+      ],
+      "passage": "DEMO-RESOURCE-INVOICE-REPORT identifies the Invoice preparation report, owned by Finance."
+    }
+  ],
+  "synthetic_example": true,
+  "missing_resource_mentions": [],
+  "checked_at": "2026-10-11",
+  "scope": "demo",
+  "checked_subject_id": "DEMO-RESOURCE-BILLING",
+  "checked_object_id": "DEMO-RESOURCE-INVOICE-REPORT",
+  "excluded_statuses": [],
+  "conflicting_records": [],
+  "diagnostic": "Checked documented records only; future operational impact is not verified."
+}

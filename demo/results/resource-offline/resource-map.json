@@ -1,0 +1,77 @@
+{
+  "status": "READY",
+  "schema_version": 1,
+  "kind": "resource_relationship",
+  "synthetic_example": true,
+  "nodes": [
+    {
+      "id": "DEMO-RESOURCE-BILLING",
+      "label": "Billing data pipeline",
+      "owner": "Engineering",
+      "evidence_ids": [
+        "DEMO-RES-BILLING"
+      ]
+    },
+    {
+      "id": "DEMO-RESOURCE-INVOICE-REPORT",
+      "label": "Invoice preparation report",
+      "owner": "Finance",
+      "evidence_ids": [
+        "DEMO-RES-INVOICE"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "DEMO-RESOURCE-BILLING",
+      "to": "DEMO-RESOURCE-INVOICE-REPORT",
+      "predicate": "feeds",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "DEMO-REL-SOURCE-001"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "DEMO-REL-SOURCE-001",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-BILLING",
+        "DEMO-RESOURCE-INVOICE-REPORT"
+      ],
+      "passage": "Relationship DEMO-REL-001 documents that the Billing data pipeline feeds the Invoice preparation report within the recorded scope from 2026-10-11. It does not document an outage, financial loss, or the effect of a future pipeline change.",
+      "assertions": [
+        {
+          "subject_id": "DEMO-RESOURCE-BILLING",
+          "predicate": "feeds",
+          "object_id": "DEMO-RESOURCE-INVOICE-REPORT",
+          "polarity": "supports",
+          "scope": "demo"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-RES-BILLING",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-BILLING"
+      ],
+      "passage": "DEMO-RESOURCE-BILLING identifies the Billing data pipeline, owned by Engineering."
+    },
+    {
+      "id": "DEMO-RES-INVOICE",
+      "source_type": "synthetic_example",
+      "approval_status": "demo_only",
+      "resource_ids": [
+        "DEMO-RESOURCE-INVOICE-REPORT"
+      ],
+      "passage": "DEMO-RESOURCE-INVOICE-REPORT identifies the Invoice preparation report, owned by Finance."
+    }
+  ],
+  "scope": "demo",
+  "checked_at": "2026-10-11",
+  "text_equivalent": "Billing data pipeline — feeds → Invoice preparation report"
+}

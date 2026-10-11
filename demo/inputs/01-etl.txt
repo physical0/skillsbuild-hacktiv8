@@ -1,0 +1,1 @@
+I work in Marketing. Engineering said, "We are fixing ETL because the transaction system and campaign dashboard disagree." Explain ETL in this context using the retrieved evidence. Explain any relevance to my work only when the evidence supports it. Preserve source IDs and disclose synthetic examples.

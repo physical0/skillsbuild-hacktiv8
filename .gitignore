@@ -1,0 +1,50 @@
+# Credentials and private client/server state; publish the examples instead.
+.env
+.env.*
+!.env.example
+/.bob/
+/.langflow/
+*.pem
+*.key
+
+# Assistant-generated previews, candidate decks, receipts, logs, and archives.
+/.build/
+/.codex-finalizer/
+
+# Installed dependencies, virtual environments, and tool caches.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor/Office temporary files and machine-specific settings.
+/.idea/
+/.vscode/
+~$*
+.~lock.*#
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unsanitized captures stay private; reviewed demo outputs remain publishable.
+/demo/private/
+
+/scripts/
+
+/docs/
+
+/pitch/
+
+target.md

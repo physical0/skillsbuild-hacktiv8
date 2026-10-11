@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "DEMO-ENG-ETL",
+    "content": "ETL means extract, transform, load. It moves data from source systems, applies transformations, and loads a destination. In this synthetic example, an ETL process feeds the campaign dashboard from transaction records. Inconsistent dashboard data requires checking the transformation and load steps. This is demonstration evidence, not a real company incident.",
+    "$vectorize": "ETL means extract, transform, load. It moves data from source systems, applies transformations, and loads a destination. In this synthetic example, an ETL process feeds the campaign dashboard from transaction records. Inconsistent dashboard data requires checking the transformation and load steps. This is demonstration evidence, not a real company incident.",
+    "metadata": {
+      "source_id": "DEMO-ENG-ETL",
+      "department": "Engineering",
+      "term": "ETL",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-ENG-PIPELINE",
+    "content": "In this synthetic Engineering glossary, a data pipeline is a sequence of data processing steps. Pipeline can also mean other workflows, so identify the intended process from the message. The demo billing data pipeline feeds the demo invoice preparation report. This is a synthetic dependency, not a production relationship.",
+    "$vectorize": "In this synthetic Engineering glossary, a data pipeline is a sequence of data processing steps. Pipeline can also mean other workflows, so identify the intended process from the message. The demo billing data pipeline feeds the demo invoice preparation report. This is a synthetic dependency, not a production relationship.",
+    "metadata": {
+      "source_id": "DEMO-ENG-PIPELINE",
+      "department": "Engineering",
+      "term": "pipeline",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  },
+  {
+    "_id": "DEMO-ENG-API",
+    "content": "API means application programming interface. It describes how software systems communicate. This synthetic example describes an interface used to fetch reporting data. It does not establish real availability, access rights, or company policy.",
+    "$vectorize": "API means application programming interface. It describes how software systems communicate. This synthetic example describes an interface used to fetch reporting data. It does not establish real availability, access rights, or company policy.",
+    "metadata": {
+      "source_id": "DEMO-ENG-API",
+      "department": "Engineering",
+      "term": "API",
+      "synthetic_example": true,
+      "demo_only": true,
+      "corpus_version": "synthetic-v1"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "pending_runtime_evidence",
+  "environment": {
+    "langflow_version": "",
+    "operating_system": "",
+    "model": "",
+    "embedding_model": "",
+    "corpus_version": "",
+    "bob_version_if_used": ""
+  },
+  "runs": [],
+  "screenshots": [],
+  "feedback": [],
+  "note": "Populate only from actual execution and consented feedback. Paths are repository-relative. Screenshots are records with path and kind."
+}

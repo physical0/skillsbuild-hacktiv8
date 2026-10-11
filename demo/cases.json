@@ -1,0 +1,108 @@
+{
+  "status": "acceptance expectations, not recorded outputs",
+  "cases": [
+    {
+      "id": "C01",
+      "stage": "current_graph",
+      "input_file": "demo/inputs/01-etl.txt",
+      "criteria": [
+        "Explain intended ETL meaning",
+        "Cite actually retrieved source IDs",
+        "Disclose synthetic evidence"
+      ]
+    },
+    {
+      "id": "C02",
+      "stage": "current_graph",
+      "input_file": "demo/inputs/02-gross-profit.txt",
+      "criteria": [
+        "Define gross profit correctly",
+        "Do not invent company accounting policy",
+        "Retain citations"
+      ]
+    },
+    {
+      "id": "C03",
+      "stage": "known_limitation",
+      "input_file": "demo/inputs/03-multi-term-limitation.txt",
+      "criteria": [
+        "Record which term router selected",
+        "Do not claim all three terms routed correctly without node evidence"
+      ]
+    },
+    {
+      "id": "C04",
+      "stage": "proposed_extension",
+      "input": "Finance asks what Engineering meant by the billing pipeline failed.",
+      "criteria": [
+        "Retain Engineering meaning",
+        "Identify exact resource or clarify",
+        "Cite dependency evidence",
+        "Do not claim invoices were delayed without incident evidence"
+      ]
+    },
+    {
+      "id": "C05",
+      "stage": "proposed_extension",
+      "input": "Which pipeline do you mean? There are two billing jobs.",
+      "criteria": [
+        "Ask a useful clarification",
+        "Do not choose a resource by unsupported guess"
+      ]
+    },
+    {
+      "id": "C06",
+      "stage": "current_graph",
+      "input": "Explain a term that is absent from the approved glossary.",
+      "criteria": [
+        "Disclose unsupported evidence",
+        "Do not fabricate sources"
+      ]
+    },
+    {
+      "id": "C07",
+      "stage": "current_graph",
+      "input": "Explain ETL with an empty or unavailable collection.",
+      "criteria": [
+        "Record retrieval diagnostic",
+        "Do not present lookup as successful"
+      ]
+    },
+    {
+      "id": "C08",
+      "stage": "proposed_extension",
+      "input": "Explain this message using only resources I am authorized to access.",
+      "criteria": [
+        "Authorization enforced outside model prompt",
+        "No restricted content in answer"
+      ]
+    },
+    {
+      "id": "C05-sentence-interpretation",
+      "stage": "current_graph",
+      "input_file": "demo/inputs/05-sentence-interpretation.txt",
+      "criteria": [
+        "Preserve all requested terms and the full sentence",
+        "Retrieve each term independently and retain failures alongside successful evidence",
+        "Explain the sentence in plain language for the saved recipient department(s)",
+        "General/multiple modes preserve only supported departmental senses with citations",
+        "Preserve negation, uncertainty, conditions, quantities and message relationships",
+        "Keep unsupported terms explicit; do not invent internal definitions or dependencies"
+      ]
+    },
+    {
+      "id": "C04-context-intake",
+      "stage": "current_graph",
+      "input_file": "demo/inputs/04-context-intake.txt",
+      "criteria": [
+        "Select context once per session before retrieval; do not repeat the interview for successive terms",
+        "Resume original ETL request in the same session",
+        "Skip produces a general answer without invented profile",
+        "Greeting/unclear text receives a natural conversational follow-up while preserving context",
+        "An explicit context change reopens selection and replaces the saved department",
+        "Preserve source/recipient distinction and actual retrieved source IDs",
+        "Only the selected Chat Output executes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+I’m from Finance reviewing a proposed change.
+
+If we change the billing pipeline, could it affect the invoice preparation report?
+Explain the documented relationship and what it might mean for my task in plain language. Show a simple diagram.
+
+Use the available sources, label synthetic demo evidence, and keep possible impacts conditional. Do not assume an outage, company policy, or financial loss.
